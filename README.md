@@ -8,4 +8,4 @@ Then put main.lua, libchtllm.dll, ggml.dll and .bin llm file to that folder wher
 
 luajit -b main.lua main.luac
 
-luajit main.luac llm.bin
+luajit main.luac -m llm.bin

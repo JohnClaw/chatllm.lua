@@ -9,4 +9,4 @@ Then put main.lua, libchtllm.dll, ggml.dll and .bin llm file to that folder wher
 
 luajit -b main.lua main.luac
 
-luajit main.luac -m llm.bin
+luajit main.luac -m qwen2.5-1.5b.bin

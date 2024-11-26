@@ -11,6 +11,8 @@ luajit -b main.lua main.luac
 
 luajit main.luac -m qwen2.5-1.5b.bin
 
+Original libchatllm.dll, ggml.dll and libchatllm.lib can be found in original repo already mentioned above.
+
 Links for quantatized models:
 
 QWen-2.5 1.5B - https://modelscope.cn/api/v1/models/judd2024/chatllm_quantized_qwen2.5/repo?Revision=master&FilePath=qwen2.5-1.5b.bin
